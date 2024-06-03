@@ -1,4 +1,4 @@
-package qp
+package tqp
 
 import (
 	"regexp"

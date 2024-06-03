@@ -1,4 +1,4 @@
-name: Test
+iname: Test
 on:
   push:
   pull_request:
@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
-      - name: Build
-        run: go test . 
+      - name: Test
+        run: go test . -v
