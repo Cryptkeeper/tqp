@@ -54,8 +54,9 @@ import "github.com/Cryptkeeper/tqp"
 
 func main() {
     myQuery := "hello world name:nick"
-	attrs, noise := tqp.Find(myQuery)
+    attrs, noise := tqp.Find(myQuery)
     // attrs is map[string][]string{"name": []string{"nick"}}
     // noise is []string{"hello", "world"}
 }
 ```
+
