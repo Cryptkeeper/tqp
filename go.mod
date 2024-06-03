@@ -1,3 +1,3 @@
-module github.com/Cryptkeeper/tqp v1.0.0
+module github.com/Cryptkeeper/tqp
 
 go 1.22.3
